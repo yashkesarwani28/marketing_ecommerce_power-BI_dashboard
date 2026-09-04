@@ -17,7 +17,7 @@ Key takeaways from each page of the Marketing & E-commerce Analytics Dashboard.
 - Campaigns generated **$6.68M** in attributed revenue with an average uplift of **8.67%**.
 - **Affiliate** and **Paid Search** are the top two channels by revenue ($1.61M and $1.53M respectively), and Affiliate also sits in the best-performing quadrant of the Uplift-vs-Revenue scatter plot (high uplift *and* high revenue).
 - Across objectives, **Reactivation** and **Retention** campaigns generated the most total revenue (₹19.55L and ₹18.15L respectively), suggesting existing-customer campaigns currently outperform pure acquisition spend.
-- **Active Campaigns measure fix:** the original DAX measure had a date-comparison bug (`14-04-2023` was evaluated as arithmetic, not a date), which silently counted all campaigns instead of filtering. The corrected, dynamic measure (`end_date >= MIN(end_date)`) confirms all **50 campaigns** in the dataset are active, and will self-maintain if the dataset is refreshed. See [`dax/measures.md`](../dax/measures.md) for the full fix.
+- **Active Campaigns measure fix:** the original DAX measure had a date-comparison bug (`14-04-2023` was evaluated as arithmetic, not a date), which silently counted all campaigns instead of filtering. The corrected, dynamic measure (`end_date >= MIN(end_date)`) confirms all **50 campaigns** in the dataset are active, and will self-maintain if the dataset is refreshed. See [`dax/measures.md`][📊 View Insights Summary](Docs/Insights_summary.md) for the full fix.
 
 ---
 
