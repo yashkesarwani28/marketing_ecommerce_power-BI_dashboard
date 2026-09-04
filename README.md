@@ -66,7 +66,7 @@ Six connected report pages, each ending in a **Key Insights** panel with an acti
 | **Product Performance** | Top products, category revenue mix, price-vs-revenue performance |
 | **Transaction & Geographical Revenue Analysis** | Country-level revenue/orders, refund rate vs. target, AOV by country |
 
-Every page shares a common set of slicers (Channel, Country, Objective, Category, Date) so filtering one page's context can be carried across the story. Full quantified insights per page are documented in [`docs/insights_summary.md`](docs/insights_summary.md).
+Every page shares a common set of slicers (Channel, Country, Objective, Category, Date) so filtering one page's context can be carried across the story. Full quantified insights per page are documented in [`docs/insights_summary.md`](docs/Insights_summary.md).
 
 ---
 
